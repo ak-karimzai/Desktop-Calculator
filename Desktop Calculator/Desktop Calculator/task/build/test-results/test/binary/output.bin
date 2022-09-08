@@ -1,0 +1,108 @@
+[1;31m
+Start test 1[0m
+[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+[1;31m
+Start test 4[0m
+[1;31m
+Start test 5[0m
+9 1+
+9 1+
+&rhs: 1.0 lhs: 9.0 operator:+ res:10.0
+1 99-
+1 99-
+(rhs: 99.0 lhs: 1.0 operator:- res:-98.0
+9 2÷
+9 2÷
+&rhs: 2.0 lhs: 9.0 operator:÷ res:4.5
+0 7÷
+0 7÷
+&rhs: 7.0 lhs: 0.0 operator:÷ res:0.0
+4.5 2×
+4.5 2×
+&rhs: 2.0 lhs: 4.5 operator:× res:9.0
+[1;31m
+Start test 6[0m
+	11 5 -4+
+	11 5 -4+
+&rhs: 5.0 lhs: 11.0 operator:- res:6.0
+&rhs: 4.0 lhs: 6.0 operator:+ res:10.0
+	2 17 -5+
+	2 17 -5+
+(rhs: 17.0 lhs: 2.0 operator:- res:-15.0
+)rhs: 5.0 lhs: -15.0 operator:+ res:-10.0
+
+9 2 ÷8×
+
+9 2 ÷8×
+&rhs: 2.0 lhs: 9.0 operator:÷ res:4.5
+'rhs: 8.0 lhs: 4.5 operator:× res:36.0
+25 9 3 ÷8 8×-+
+25 9 3 ÷8 8×-+
+&rhs: 3.0 lhs: 9.0 operator:÷ res:3.0
+'rhs: 8.0 lhs: 8.0 operator:× res:64.0
+(rhs: 64.0 lhs: 3.0 operator:- res:-61.0
+*rhs: -61.0 lhs: 25.0 operator:+ res:-36.0
+9.2 2.3 ÷12 ×2.4÷
+9.2 2.3 ÷12 ×2.4÷
+&rhs: 2.3 lhs: 9.2 operator:÷ res:4.0
+(rhs: 12.0 lhs: 4.0 operator:× res:48.0
+(rhs: 2.4 lhs: 48.0 operator:÷ res:20.0
+25 9 2 ^3 ×8 8 ÷ ×49√-+
+25 9 2 ^3 ×8 8 ÷ ×49√-+
+&rhs: 2.0 lhs: 9.0 operator:^ res:81.0
+)rhs: 3.0 lhs: 81.0 operator:× res:243.0
+&rhs: 8.0 lhs: 8.0 operator:÷ res:1.0
+*rhs: 1.0 lhs: 243.0 operator:× res:243.0
+)rhs: 49.0 lhs: 49.0 operator:√ res:7.0
+)rhs: 7.0 lhs: 243.0 operator:- res:236.0
+*rhs: 236.0 lhs: 25.0 operator:+ res:261.0
+ 16 √36 2 ^5÷+
+ 16 √36 2 ^5÷+
+)rhs: 16.0 lhs: 16.0 operator:√ res:4.0
+)rhs: 2.0 lhs: 36.0 operator:^ res:1296.0
++rhs: 5.0 lhs: 1296.0 operator:÷ res:259.2
+)rhs: 259.2 lhs: 4.0 operator:+ res:263.2
+ 2 -2-
+ 2 -2-
+&rhs: 2.0 lhs: 0.0 operator:- res:-2.0
+'rhs: 2.0 lhs: -2.0 operator:- res:-4.0
+[1;31m
+Start test 7[0m
+25 9 3 ÷8 8×-+
+25 9 3 ÷8 8×-+
+&rhs: 3.0 lhs: 9.0 operator:÷ res:3.0
+'rhs: 8.0 lhs: 8.0 operator:× res:64.0
+(rhs: 64.0 lhs: 3.0 operator:- res:-61.0
+*rhs: -61.0 lhs: 25.0 operator:+ res:-36.0
+8 7 1 -5++
+8 7 1 -5++
+%rhs: 1.0 lhs: 7.0 operator:- res:6.0
+&rhs: 5.0 lhs: 6.0 operator:+ res:11.0
+'rhs: 11.0 lhs: 8.0 operator:+ res:19.0
+3 8 4 3+ 2 ×1+ ×6 2 1+÷-+
+3 8 4 3+ 2 ×1+ ×6 2 1+÷-+
+%rhs: 3.0 lhs: 4.0 operator:+ res:7.0
+'rhs: 2.0 lhs: 7.0 operator:× res:14.0
+'rhs: 1.0 lhs: 14.0 operator:+ res:15.0
+)rhs: 15.0 lhs: 8.0 operator:× res:120.0
+%rhs: 1.0 lhs: 2.0 operator:+ res:3.0
+&rhs: 3.0 lhs: 6.0 operator:÷ res:2.0
+)rhs: 2.0 lhs: 120.0 operator:- res:118.0
+)rhs: 118.0 lhs: 3.0 operator:+ res:121.0
+[1;31m
+Start test 8[0m
+6 3÷
+6 3÷
+&rhs: 3.0 lhs: 6.0 operator:÷ res:2.0
+[1;31m
+Start test 9[0m
+2 +
+2 +
+5 0÷
+5 0÷
+	  9-(√
+	  9-(√
+&rhs: 9.0 lhs: 0.0 operator:- res:-9.0

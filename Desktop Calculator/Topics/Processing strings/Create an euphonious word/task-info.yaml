@@ -1,0 +1,30 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+
+    public class Main {
+        public static void main(String[] args) {
+            // write your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3791#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #3 of 11. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    player
+    Correct output:
+    1
+
+    Your code output:
+    0
+  time: Mon, 05 Sep 2022 08:02:19 UTC
+record: -1
